@@ -34,7 +34,7 @@ aside | Extra (pode ser usado a baixo do artigo normalmente para exibir o nome d
 
 
 Para CSS:
-podemos usar id e class na mesma tag(<.. id="exemplo01" class"exemplo02">
+podemos usar id e class na mesma tag(<.. id="exemplo01" class"exemplo02">)
 id    | (Prioritário)identificação para o CSS(o nome não se repete)
 class | identificação para o CSS(o nome pode se repetir)
     pode usar mais de um na mesma tag separando por espaço(
