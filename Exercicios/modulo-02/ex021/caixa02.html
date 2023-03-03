@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(146, 146, 146);
+            padding: 3px;
+            box-shadow: 2px 2px 3px 1px #0000008f;
+        }
+        nav > a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+        text-decoration: underline;
+        }    
+        main{
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(146, 146, 146);
+        }
+        footer{
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="caixa01.html">Caixa 01</a>
+            <a href="caixa02.html">Caixa 02</a>
+            <a href="caixa03.html">Caixa 03</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <selection id="assuntos">
+
+        </selection>
+        <selection id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, facilis? Maiores expedita optio repellendus, voluptates et alias itaque, minima error nihil suscipit dignissimos doloribus inventore exercitationem deserunt! Reiciendis, debitis accusantium.</p>
+            
+            <aside>
+                <p>Artigos escrito por José da Silva</p>
+            </aside>
+            </article>
+        </selection>
+    </main>
+    <footer>
+        <p>Desenvolvido por Pedro Alves &copy;</p>
+    </footer>
+</body>
+</html>
