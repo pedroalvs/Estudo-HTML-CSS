@@ -30,6 +30,21 @@ SIMBOLOGIAS:
 PSEUDO-CLASSES(:):
 
 hover | muda enquanto o cursor esta em cima
+active | Este seletor é usado para selecionar e dar a possibilidade de estilizar o link ativo.
+first-child | Usamos este seletor para selecionar o primeiro elemento no DOM pai, por exemplo, o primeiro item do menu.
+last-child | Este seletor é o mesmo do primeiro-filho, apenas este seleciona o último elemento.
+nth-child(n) | Usamos este seletor para selecionar cada “n” filho. Pode ser útil, por exemplo, em listas ou tabelas, onde queremos dar outra cor a cada n linha.
+visited | Este seletor pode pegar o link visitado. Pode ser útil quando queremos dar outros estilos aos links que já clicamos.
+required | Este seletor pode nos dar a possibilidade de estilizar entradas marcadas como “required”.
+focus | Este seletor nos dá a possibilidade de estilizar as entradas que estamos focando no momento.
+checked | Usamos este seletor para marcar as caixas de seleção marcadas.
+disabled | Este seletor é útil para dar estilos diferentes para entradas desabilitadas.
+not(selector) | Este seletor é muito útil no caso em que queremos adicionar estilo a todos os elementos que não são um elemento especificado, como, por exemplo, todos os elementos, mas não div.
+
+
+
+
+:root | criar variáveis(ex: --background: background-color: #fff);
 
 
 MODELO DE CAIXAS:
@@ -160,3 +175,6 @@ Positions | Posição
 
 Ul | lista suspensa
     colums | escolher quantidade de colunas
+
+Transform | ...
+    rotate | rodar objeto
