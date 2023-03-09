@@ -1,0 +1,90 @@
+/* delete the following line if no text is used*/
+/* edit the line if you wanna use other fonts*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+:root {
+	--background-deafult: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+	--box-shadow-deafult: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+/* use only the available space inside the 400x400 frame*/
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 10px;
+	box-shadow: var(--box-shadow-deafult);
+	overflow: hidden;
+	background: var(--background-deafult);
+	color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* INIT*/
+.frame {
+	text-align: center;
+}
+
+.center {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.numbers {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.numbers > div {
+	background-color: #fff;
+	box-shadow: var(--box-shadow-deafult);
+}
+
+.numbers .one-1,
+.numbers .one-2 {
+	width: 20px;
+	border-radius: 4px;
+}
+
+.numbers .one-1 {
+	height: 40px;
+	transform: rotate(50deg);
+	z-index: 9;
+	left: 0;
+}
+
+.numbers .one-2 {
+	height: 100px;
+	z-index: 10;
+}
+
+.numbers .zero {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: transparent;
+	box-shadow: var(--box-shadow-deafult);
+	border: 20px solid rgba(255, 252, 252);
+	margin-left: -10px;
+}
+
+.center h2 {
+	font-size: 4rem;
+}
+
+.center h3 {
+	font-size: 1.5rem;
+}
